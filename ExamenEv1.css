@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+.nombre{
+    background-color: aqua;
+}
+
+.menu{
+    background-color: aqua;
+}
+
+.menuEnlaces{
+    background-color: aqua;
+}
+
+.formulario{
+    background-color: aqua;
+}
+
+.banner{
+    background-color: aqua;
+}
+
+.footer{
+    background-color: aqua;
+}
+
+form{
+    width: 100%;
+    padding: 15px;
+}
+
+button{
+    width: 30%;
+    padding: 5px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgba(0,0,0,0.5);
+}
+
+legend{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+input, textarea, select{
+    margin: 10px;
+    width: 60%;
+
+    border: none;
+    border-bottom-style: dotted;
+    border-bottom-width: 3px;
+
+}
+
+textarea{
+    border-style: dotted;
+    border-width: 3px;
+}
+
+select{
+    border: 1px solid black;
+}
+
+form{
+    text-align: right;
+}
+
+
+
+
+/*Pantallas pequeñas*/
+@media (max-width: 680px){
+    label{
+        display: none;
+    }
+
+    legend{
+        display: none;
+    }
+    
+    input, textarea, select{
+        width: 100%;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    button{
+        width: 100%;
+        padding: 5px;
+        color: white;
+        background-color: blue;
+        border-radius: 5px;
+        box-shadow: 5px 5px rgba(0,0,0,0.5);
+    }
+}
+
+/*Pantallas medianas*/
+@media (max-width: 1024px){
+    input, textarea, select{
+        width: 100%;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    legend{
+        
+        text-align: center;
+    }
+
+    button{
+        width: 100%;
+        padding: 5px;
+        color: white;
+        background-color: blue;
+        border-radius: 5px;
+        box-shadow: 5px 5px rgba(0,0,0,0.5);
+    }
+
+    form{
+        text-align: left;
+    }
+
+    label{
+        padding-left: 10px;
+        margin: 0px;
+        margin-top: 10px;
+    }
+}
